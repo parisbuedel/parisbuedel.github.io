@@ -20,14 +20,14 @@ header::before {
   content: "";
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: rgba(0, 0, 0, 0.5);  /* 50% dark overlay */
+  background: rgba(0, 0, 0, 0.5);
   z-index: 0;
 }
 
 header h1, header p, header nav {
   position: relative;
   z-index: 1;
-  color: #007BFF;  /* Blue text */
+  color: #007BFF;
 }
 
 header nav a {
@@ -38,9 +38,40 @@ header nav a {
 }
 
 main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
   padding: 2rem;
-  max-width: 800px;
+  max-width: 1200px;
   margin: auto;
+}
+
+.text-content {
+  flex: 2;
+}
+
+.image-content {
+  flex: 1;
+  max-width: 300px;
+}
+
+.image-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 h2 {
