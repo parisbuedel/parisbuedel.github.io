@@ -50,7 +50,7 @@ main {
 
 .text-content {
   position: relative;
-  left: 50%;
+  left: 25%;
   transform: translateX(-25%);
   max-width: 600px;
 }
