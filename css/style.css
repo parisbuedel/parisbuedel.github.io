@@ -49,9 +49,12 @@ main {
 }
 
 .text-content {
-  flex: 2;
-  margin-left: 50%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-25%);
+  max-width: 600px;
 }
+
 
 .image-content {
   flex: 1;
