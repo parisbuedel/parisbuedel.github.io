@@ -1,5 +1,13 @@
 
-/* Header Bar */
+/* General Body Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styling */
 header {
   display: flex;
   justify-content: space-between;
@@ -30,15 +38,74 @@ header nav a:hover {
   color: #1e90ff;
 }
 
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
+/* Main Content Layout */
 main {
   padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
 }
 
+/* Blue Boxed Section Styling */
+.services-section,
+#tools,
+#projects,
+#contact {
+  background-color: #083c59;
+  color: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.services-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services-image {
+  flex: 1;
+  padding: 1rem;
+  min-width: 280px;
+}
+
+.services-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.services-content {
+  flex: 2;
+  padding: 1rem;
+}
+
+.services-content h2,
+#tools h2,
+#projects h2,
+#contact h2 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin-top: 0;
+}
+
+.services-content p,
+#tools p,
+#projects p,
+#contact p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.services-content ul,
+#tools ul,
+#projects ul,
+#contact ul {
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+/* Footer */
 footer {
   background-color: #003366;
   color: white;
