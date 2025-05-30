@@ -49,7 +49,8 @@ main {
 .services-section,
 #tools,
 #projects,
-#contact {
+#contact,
+#hardware {
   background-color: #083c59;
   color: white;
   padding: 2rem;
