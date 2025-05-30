@@ -1,4 +1,50 @@
+
+/* Responsive Styles */
 @media screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  header img {
+    height: 100px;
+    margin-bottom: 1rem;
+  }
+
+  header nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  main {
+    padding: 1rem;
+  }
+
+  .services-section,
+  #tools,
+  #projects,
+  #contact,
+  #hardware {
+    padding: 1.5rem;
+  }
+
+  .services-section {
+    flex-direction: column;
+  }
+
+  .services-content,
+  .services-image {
+    flex: 1 1 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .services-image img {
+    width: 90%;
+    margin-top: 1rem;
+  }
+
   .section-container {
     flex-direction: column;
     padding: 1rem;
