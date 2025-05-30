@@ -109,7 +109,6 @@ main {
   line-height: 1.6;
 }
 
-/* Section Layout Shared Across Components */
 .section-container {
   display: flex;
   flex-wrap: wrap;
